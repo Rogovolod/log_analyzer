@@ -33,6 +33,7 @@ public class LogParser {
 
             return new LogEntry(timestamp, statusCode, responseTime);
         } catch (Exception e) {
+            System.out.println("parse error");
             return null;
         }
     }
