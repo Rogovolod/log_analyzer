@@ -33,7 +33,7 @@ java -jar log_analyzer-1.0.jar -u 88.9 -t 45 -f access.log
 ```
 
 ### Требования
-- Java 8 или выше
+- Java 17 или выше
 - Файл лога должен соответствовать формату:
 ```
 192.168.32.181 - - [14/06/2017:16:47:02 +1000] "PUT /rest/v1.4/documents?zone=default&_rid=6076537c HTTP/1.1" 200 2 44.510983 "-" "@list-item-updater" prio:0
